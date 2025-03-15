@@ -1,6 +1,8 @@
-# React Tailwind Playground
+# React Tailwind Playground  
 
-This is a practice project for learning **responsive designs** using **Tailwind CSS** and **state management** using **Redux Toolkit**. The project aims to build a solid foundation for handling future complex frontend projects.
+This is a practice project for learning **responsive designs** using **Tailwind CSS** and **state management** using **Redux Toolkit**. The project aims to build a solid foundation for handling future complex frontend projects.  
+
+👉 **[Deplyed Project Link](https://redux-tailwind-playground.netlify.app/)**  
 
 ---
 
