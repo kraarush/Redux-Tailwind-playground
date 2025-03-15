@@ -18,10 +18,10 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li className="p-4">
-          <Link to="/about">About</Link>
+          <Link to="/about" >About</Link>
         </li>
         <li className="p-4">
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" >Contact</Link>
         </li>
       </ul>
 
@@ -41,13 +41,13 @@ const Navbar = () => {
         </h1>
         <ul className="uppercase justify-center ">
           <li className="p-4 border-b border-gray-600">
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={handleNav} >Home</Link>
           </li>
           <li className="p-4 border-b border-gray-600">
-            <Link to="/about">About</Link>
+            <Link to="/about" onClick={handleNav} >About</Link>
           </li>
           <li className="p-4">
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" onClick={handleNav} >Contact</Link>
           </li>
         </ul>
       </div>
