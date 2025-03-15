@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom'
 import Contact from './components/shared/Contact'
 import About from './components/shared/About'
 import Home from './components/shared/Home'
+import Counter from './features/counter/Counter'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/about' element={<About/>} />
+        <Route path='/counter' element={<Counter/>} />
       </Routes>
     </div>
   )

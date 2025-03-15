@@ -23,6 +23,9 @@ const Navbar = () => {
         <li className="p-4">
           <Link to="/contact" >Contact</Link>
         </li>
+        <li className="p-4">
+          <Link to="/counter" >Counter</Link>
+        </li>
       </ul>
 
       <div onClick={handleNav} className="block md:hidden">
@@ -48,6 +51,9 @@ const Navbar = () => {
           </li>
           <li className="p-4">
             <Link to="/contact" onClick={handleNav} >Contact</Link>
+          </li>
+          <li className="p-4">
+            <Link to="/counter" onClick={handleNav} >Counter</Link>
           </li>
         </ul>
       </div>
