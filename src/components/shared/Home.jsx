@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from './Hero'
 import Analytics from './Analytics'
 import NewsLetter from './NewsLetter'
-import Counter from '@/features/counter/Counter'
+import Cards from './Cards'
 
 const Home = () => {
   return (
@@ -10,6 +10,8 @@ const Home = () => {
         <Hero/>
         <Analytics/>
         <NewsLetter/>
+        <Cards/>
+        
     </div>
   )
 }

@@ -15,16 +15,16 @@ const Navbar = () => {
 
       <ul className="hidden md:flex">
         <li className="p-4">
-          <Link to="/">Home</Link>
+          <Link to="/" className="text-gray-300 hover:text-[#00df9a] transition-colors duration-300"> Home </Link>
         </li>
         <li className="p-4">
-          <Link to="/about" >About</Link>
+          <Link to="/about" className="text-gray-300 hover:text-[#00df9a] transition-colors duration-300"> About </Link>
         </li>
         <li className="p-4">
-          <Link to="/contact" >Contact</Link>
+          <Link to="/contact" className="text-gray-300 hover:text-[#00df9a] transition-colors duration-300"> Contact </Link>
         </li>
         <li className="p-4">
-          <Link to="/counter" >Counter</Link>
+          <Link to="/counter" className="text-gray-300 hover:text-[#00df9a] transition-colors duration-300"> Counter </Link>
         </li>
       </ul>
 
@@ -42,18 +42,26 @@ const Navbar = () => {
         <h1 className="text-[#00df9a] text-3xl font-bold w-full m-4 ">
           React App
         </h1>
-        <ul className="uppercase justify-center ">
+        <ul className="uppercase justify-center">
           <li className="p-4 border-b border-gray-600">
-            <Link to="/" onClick={handleNav} >Home</Link>
+            <Link to="/" onClick={handleNav} className="text-gray-300 hover:text-[#00df9a] transition-colors duration-300">
+              Home
+            </Link>
           </li>
           <li className="p-4 border-b border-gray-600">
-            <Link to="/about" onClick={handleNav} >About</Link>
+            <Link to="/about" onClick={handleNav} className="text-gray-300 hover:text-[#00df9a] transition-colors duration-300">
+              About
+            </Link>
+          </li>
+          <li className="p-4 border-b border-gray-600">
+            <Link to="/contact" onClick={handleNav} className="text-gray-300 hover:text-[#00df9a] transition-colors duration-300">
+              Contact
+            </Link>
           </li>
           <li className="p-4">
-            <Link to="/contact" onClick={handleNav} >Contact</Link>
-          </li>
-          <li className="p-4">
-            <Link to="/counter" onClick={handleNav} >Counter</Link>
+            <Link to="/counter" onClick={handleNav} className="text-gray-300 hover:text-[#00df9a] transition-colors duration-300">
+              Counter
+            </Link>
           </li>
         </ul>
       </div>

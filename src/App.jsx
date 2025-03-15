@@ -8,6 +8,7 @@ import Contact from './components/shared/Contact'
 import About from './components/shared/About'
 import Home from './components/shared/Home'
 import Counter from './features/counter/Counter'
+import Footer from './components/shared/Footer'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/about' element={<About/>} />
         <Route path='/counter' element={<Counter/>} />
       </Routes>
+      <Footer/>
     </div>
   )
 }
